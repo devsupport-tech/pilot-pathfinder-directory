@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import Drivers from "./pages/Drivers";
 import DriverDetail from "./pages/DriverDetail";
 import DriverSignup from "./pages/DriverSignup";
+import Login from "./pages/Login";
 import HowItWorks from "./pages/HowItWorks";
 import Benefits from "./pages/Benefits";
 import Contact from "./pages/Contact";
@@ -41,6 +42,7 @@ const App = () => {
             <Route path="/drivers" element={<Drivers />} />
             <Route path="/drivers/:driverId" element={<DriverDetail />} />
             <Route path="/driver-signup" element={<DriverSignup />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
             <Route path="/benefits" element={<Benefits />} />
             <Route path="/contact" element={<Contact />} />
